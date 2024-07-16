@@ -18,9 +18,9 @@ int g=0,k,n,h;
 scanf("%d",&g);
 for(k=0;k<g;k++){
     scanf("%d",&n);
-    char ar[n];
+    int ar[n];
     for(h=0;h<n;h++){
-        scanf("%s",&ar[h]);
+        scanf("%d",&ar[h]);
     }
     sort(ar,n);
     printf("%s","Optimal train swapping takes ");

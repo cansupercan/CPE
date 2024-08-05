@@ -4,4 +4,4 @@ b=0
 while(True):
     input(int(a))
     input(int(b))
-    print(f"{a}%{b}={a%b}\n")
+    print(f"{a}%{b}={a%b}\n") # Test
